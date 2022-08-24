@@ -5,6 +5,6 @@ setup(
     version="1.0.0",
     author="sonyakun",
     packages=find_packages(),
-    install_requires=["requests","urlib","asyncio"],
+    install_requires=["requests","asyncio"],
     include_package_data=True,
 )
