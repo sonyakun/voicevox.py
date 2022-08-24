@@ -1,1 +1,1 @@
-from voicevox.py.webapi import *
+from voicevox.webapi import *
