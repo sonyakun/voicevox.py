@@ -1,7 +1,7 @@
 # voicevox.py
 Python上から簡単にVORCEVOXの音声合成を利用できるモジュール。
 ## 使い方
-PC上のVOICEVOXを利用する
+### PC上のVOICEVOXを利用する
 VOICEVOXダウンロード&インストーラー実行
 ```python
 import voicevox
@@ -25,11 +25,12 @@ vboxapp = vboxclient.voiceclient() #Class「voiceclient」を利用可能にす�
 
 vboxapp.run(text="", speaker="3", filename="hoge")#textとfilenameは好きに変更できます
 ```
-Web上のVOICEVOXのAPIを利用する
+### Web上のVOICEVOXのAPIを利用する
 音声合成
 ```python
 import voicevox
 from voicevox import webapi
 
-webapi.run(apikey="APIKeyは[ここから](https://su-shiki.com/api/)取得できます",text="",sound="3",filename="hoge")#textとfilenameは好きに変更できます
+webapi.run(apikey="",text="",sound="3",filename="hoge")#textとfilenameは好きに変更できます
 ```
+(APIKeyは[ここから](https://su-shiki.com/api/)取得できます)
