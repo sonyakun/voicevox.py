@@ -1,1 +1,0 @@
-from voicevox.webapi import *
