@@ -7,3 +7,11 @@ Python上から簡単にVORCEVOXの音声合成を利用できるモジュール
 ### Github版利用にの注意点
 ・不完全なモジュールの可能性があります。
 ・動作は保証できません。
+## webAPIで利用する
+音声合成(例)
+```python
+import voicevox
+from voicevox import webapi
+
+webapi.run(apikey="ApiKey Here",text="こんにちは、ずんだもんなのだ",sound="3") #サウンドIDやApiKeyはWeb版VOICEVOXのサイトから確認してください
+```
