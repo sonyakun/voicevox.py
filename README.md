@@ -1,4 +1,7 @@
 # voicevox.py
+<iframe src="http://ghbtns.com/github-btn.html?user=sonyakun&repo=voicevox.py&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=sonyakun&repo=voicevox.py&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+
 Python上から簡単にVORCEVOXの音声合成を利用できるモジュール。
 ## 使い方
 ### PC上のVOICEVOXを利用する
